@@ -186,7 +186,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="awa"></span>
+            <span id="subtitle" data-typed-text="又一个Hexo站点"></span>
           
         </div>
 
@@ -341,7 +341,7 @@
       
         jQuery.ajax({
           type: 'GET',
-          url: 'v1.hitokoto.cn',
+          url: 'https://v1.hitokoto.cn/',
           headers: {},
           dataType: 'json',
           success: function(result) {
@@ -365,7 +365,7 @@
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request v1.hitokoto.cn:', error);
+              console.error('Failed to request https://v1.hitokoto.cn/:', error);
             }
             typing(text);
           }
