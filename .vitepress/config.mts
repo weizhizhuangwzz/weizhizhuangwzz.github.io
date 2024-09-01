@@ -60,25 +60,26 @@ export default defineConfigWithTheme<ThemeConfig>({
 
     //banner区配置
     name: "位置装的博客",
-    welcomeText: 'awa',
+    welcomeText: 'Hello,World!',
     motto: '与你的日常，就是奇迹',
     social: [
       { icon: 'github', url: 'https://github.com/weizhizhuangwzz' },
     ],
 
     //footer配置
-    footerName: 'Sensei',
+    footerName: '位置装',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
       { name: 'GitHub Pages', url: 'https://docs.github.com/zh/pages' },
+      { name: 'vitepress-theme-bluearchive', url: 'https://github.com/Alittfre/vitepress-theme-bluearchive' }, 
     ],
 
     //gitalk配置
-    clientID: 'Ov23lia9U9wFN3WMyoKK',
-    clientSecret: 'b2418ab598c188c43a247c99e728dd2735d58c3b',
-    repo: 'vitepress-theme-bluearchive',
-    owner: 'Alittfre',
-    admin: ['Alittfre'],
+    clientID: 'Ov23likVC2fwJwCMFRpB',
+    clientSecret: 'e144bdd06273f721ab45370c0baf0e42730c26c9',
+    repo: 'GitalkForWzzBlog',
+    owner: 'weizhizhuangwzz',
+    admin: ['weizhizhuangwzz'],
   },
   markdown: {
     theme: 'github-light',
