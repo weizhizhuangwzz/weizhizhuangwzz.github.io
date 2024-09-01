@@ -4,9 +4,9 @@ export interface ThemeConfig {
   menuList: { name: string; url: string }[]
 
   //banner
-  name: string
-  welcomeText: string
-  motto: string
+  name: Wzz`sBlog
+  welcomeText: awa
+  motto: awa
   social: { icon: string; url: string }[]
 
   //footer
@@ -49,8 +49,8 @@ export default defineConfigWithTheme<ThemeConfig>({
   // sitemap: {
   //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
   // },
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+  title: "Wzz`s Blog",
+  description: "Wzz`s Blog",
   themeConfig: {
     // navBar
     menuList: [
@@ -59,14 +59,11 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //banner区配置
-    name: "Sensei's 部落格",
-    welcomeText: 'Hello, VitePress',
-    motto: '何気ない日常で、ほんの少しの奇跡を見つける物語。',
+    name: "位置装的博客",
+    welcomeText: 'awa',
+    motto: '与你的日常，就是奇迹',
     social: [
-      { icon: 'github', url: 'https://github.com/' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
-      { icon: 'qq', url: 'https://im.qq.com/index/' },
-      { icon: 'wechat', url: 'https://weixin.qq.com/' },
+      { icon: 'github', url: 'https://github.com/weizhizhuangwzz' },
     ],
 
     //footer配置
