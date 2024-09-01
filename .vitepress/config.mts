@@ -4,7 +4,7 @@ export interface ThemeConfig {
   menuList: { name: string; url: string }[]
 
   //banner
-  name: Wzz`sBlog
+  name: Wzz\’sBlog
   welcomeText: awa
   motto: awa
   social: { icon: string; url: string }[]
